@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-13T13:06:34 IST" name="Suite" finished-at="2025-08-13T13:07:27 IST" duration-ms="52756">
+    <groups>
+    </groups>
+    <test started-at="2025-08-13T13:06:34 IST" name="ChromeTest" finished-at="2025-08-13T13:07:27 IST" duration-ms="52756">
+      <class name="ProductivityDashboard.CardsAvailability">
+        <test-method is-config="true" signature="clearAllureResult()[pri:0, instance:ProductivityDashboard.CardsAvailability@4f74980d]" started-at="2025-08-13T13:06:34 IST" name="clearAllureResult" finished-at="2025-08-13T13:06:34 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearAllureResult -->
+        <test-method is-config="true" signature="setAllureEnvironment()[pri:0, instance:ProductivityDashboard.CardsAvailability@4f74980d]" started-at="2025-08-13T13:06:34 IST" name="setAllureEnvironment" finished-at="2025-08-13T13:06:34 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAllureEnvironment -->
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:ProductivityDashboard.CardsAvailability@4f74980d]" started-at="2025-08-13T13:06:34 IST" name="browser" finished-at="2025-08-13T13:06:40 IST" duration-ms="5797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:ProductivityDashboard.CardsAvailability@4f74980d]" started-at="2025-08-13T13:06:40 IST" name="setup" finished-at="2025-08-13T13:06:40 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77bb48d5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="productionDataAvailability()[pri:1, instance:ProductivityDashboard.CardsAvailability@4f74980d]" started-at="2025-08-13T13:06:40 IST" name="productionDataAvailability" description="Productivity dashboard Data Verification with landing Dashboard" finished-at="2025-08-13T13:07:26 IST" duration-ms="45680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productionDataAvailability -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:ProductivityDashboard.CardsAvailability@4f74980d]" started-at="2025-08-13T13:07:26 IST" name="closing" finished-at="2025-08-13T13:07:27 IST" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- ProductivityDashboard.CardsAvailability -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

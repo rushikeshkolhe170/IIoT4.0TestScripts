@@ -1,0 +1,20 @@
+ Cucumber working in the Project--
+
+1. Cucumber used with TestNG, Selenium and in POM format but we didn't use BaseTest class because of driver fetching issue.
+2. Created 2 packages (1st Cucumber which contains the runner file and feature files and 2nd Cucumber.stepdefination which contains the testContext, hook and file with steps according to the feature file).
+3. First added Cucumber plugin from eclipse marketplace.
+4. Added (Cucumber java, Cucumber TestNG, Allure Cucumber7 jvm and Cucumber Picocontainer) dependancies in the pom file.
+
+In the Cucumber.stepdefination package created below files.
+5. Created the 'testContext.java' file with getDriver, setDriver and one more method to assigned driver so interaction with page becomes easy.
+6. Created the 'hook.java' file with constructor which assigned the context using 'this' keyword, and has Before tag method to start browser and setDriver as 'Driver', it also has After tag method to terminate browser after scenario is completed and also to capture screenshot if test gets failed using 'getDriver.quit()'.
+
+In the Cucumber package created the below files.
+7. Created the '.feature' extension file, with the feature name and scenarios in it with the given,when,then,and,or keyword format.
+8. Created the Test Runner file with CucumberOptions tag and extend the class with AbstractTestNGCucumberTests.
+
+In the Cucumber.stepdefination package created below files.
+9. Created the stepDefination file with constructor which providing not null driver to the page object and created the methods as per the steps from the feature files.
+
+
+Now run the script from Runner class file and check the allure result folder.
